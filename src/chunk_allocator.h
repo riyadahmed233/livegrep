@@ -106,6 +106,6 @@ protected:
     map<const unsigned char*, chunk*> by_data_;
 };
 
-const size_t kContentChunkSize = (1UL << 22);
+const size_t kContentChunkSize = (1UL << 19);
 
 #endif

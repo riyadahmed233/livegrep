@@ -971,7 +971,7 @@ var CodesearchUI = function() {
     },
     keypress: function() {
       CodesearchUI.clear_timer();
-      CodesearchUI.timer = setTimeout(CodesearchUI.newsearch, 100);
+      CodesearchUI.timer = setTimeout(CodesearchUI.newsearch, 300);
     },
     newsearch: function() {
       CodesearchUI.clear_timer();
